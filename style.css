@@ -1,0 +1,76 @@
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lavenderblush;
+    color: black;
+}
+
+header {
+    background-color: pink;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.back{
+    text-align: center;
+    
+}
+.back button{
+    background-color: blueviolet;
+}
+
+.back button:active{
+    background-color: aqua;
+    color:black;
+}
+
+.menu {
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+h1 {
+    color: white;
+}
+
+h2 {
+    color: mediumvioletred;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: pink;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 2px solid white;
+}
